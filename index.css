@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+}
+
+.inInput{
+	border: 2px solid green;
+}
+.exInput{
+	border: 2px solid red;
+}
+#expense-div{
+	margin-top: 10px;
+}
+#main-div{
+	display: flex;
+	flex-direction: column;
+	height: 70vh;
+}
+
+#inputs{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background-color: whitesmoke; 
+	padding: 10px;
+	justify-content: center;
+}
+
+#data-div {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	background-color: antiquewhite;
+}
+
+#data-div-income{
+	background-color: green;
+	color: white;
+	padding: 5px;
+}
+#detail-div{
+	flex: 2;
+	display: flex;
+	background-color: white;
+	justify-content: space-between; 
+}

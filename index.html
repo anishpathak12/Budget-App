@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Expense Calculator</title>
+			<script Defer src = "Expense_calc.js"></script>
+			<link rel="stylesheet" href="Expense_calc.css">
+			<!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
+		</head>
+
+		<body >
+		<div id="main-div">
+			<div id="data-div">
+				<div id="data-div-balance"></div>
+				<div id="data-div-income"></div>
+				<div id="data-div-totalExpense"></div>
+			</div>
+			<div id="inputs">
+				<div id = "income-div">
+					<span>Enter Income</span>
+					<input type="number" id="income" class="inInput"  />
+					<span>Enter Type</span>
+					<input type="text" id="income-type" 
+					class="inInput"/>
+					<input type="submit" id="submit">
+				</div>
+
+				<div id = "expense-div">
+					<span>Enter Expense</span>
+					<input type="number" id="expense"
+					class="exInput" />
+					<span>Enter Type</span>
+					<select id ="expense-type" class="exInput">
+						<option>FOOD</option>
+						<option>RENT</option>
+						<option>COMMUTE</option>
+						<option>TRAVEL</option>
+					</select>
+					<input type="submit" id="submit-expense">
+				</div>
+			</div>
+			<div id="detail-div">
+				<div id="detail-div-income"></div>
+				<div id="detail-div-expense"></div>
+			</div>
+		</div>
+		</body>
+	</html>
